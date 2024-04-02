@@ -27,7 +27,7 @@
   },
   "manifest": {
     "permissions": [
-      "tabs"
+      "https://gitlab.com//*"
     ]
   }
 }
