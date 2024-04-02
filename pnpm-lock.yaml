@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  markdown-table-prettify:
+    specifier: ^3.6.0
+    version: 3.6.0
   marked:
     specifier: ^12.0.1
     version: 12.0.1
@@ -4401,6 +4404,12 @@ packages:
       semver: 5.7.2
     dev: false
     optional: true
+
+  /markdown-table-prettify@3.6.0:
+    resolution: {integrity: sha512-xZg+sL5yWyPz75GwNHtCOLe85CPnssoTLqpGc19xSr6CirGu4xRW2f8wj1f7c8Kx1IItXo3hUIqlUX4qAOwAdg==}
+    engines: {vscode: ^1.59.0}
+    hasBin: true
+    dev: false
 
   /marked@12.0.1:
     resolution: {integrity: sha512-Y1/V2yafOcOdWQCX0XpAKXzDakPOpn6U0YLxTJs3cww6VxOzZV1BTOOYWLvH3gX38cq+iLwljHHTnMtlDfg01Q==}

@@ -11,6 +11,7 @@
     "format": "npx prettier ./src --write"
   },
   "dependencies": {
+    "markdown-table-prettify": "^3.6.0",
     "marked": "^12.0.1",
     "plasmo": "0.85.2",
     "react": "18.2.0",
