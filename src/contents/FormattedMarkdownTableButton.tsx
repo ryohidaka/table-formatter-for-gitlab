@@ -1,7 +1,7 @@
 import type { PlasmoCSConfig, PlasmoGetInlineAnchor } from "plasmo"
 
 import { CS_MATCHES, FORMAT_BUTTON } from "~constants"
-import { getIssuableFormElement } from "~utils"
+import { formatMarkdownTable, getIssuableFormElement } from "~utils"
 
 // Configuration for PlasmoCS
 export const config: PlasmoCSConfig = {
@@ -26,7 +26,10 @@ const FormattedMarkdownTableButton = () => {
   const formatAndOverwrite = () => {
     // Get the text field element
     const textField = getIssuableFormElement()
-    console.debug(textField.value)
+    // Format the markdown table
+    const formattedMarkdownString = formatMarkdownTable(textField.value)
+    // Overwrite the text field value with the formatted markdown string
+    textField.value = formattedMarkdownString
   }
   // Return the button element
   return (
