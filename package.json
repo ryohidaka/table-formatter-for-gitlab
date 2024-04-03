@@ -1,8 +1,8 @@
 {
   "name": "table-formatter-for-gitlab",
-  "displayName": "Table Formatter for GitLab",
+  "displayName": "Table Formatter for GitLab™",
   "version": "0.0.1",
-  "description": "Format the table in the GitLab MR and Issue.",
+  "description": "Format the table in the GitLab™ MR and Issue.",
   "author": "ryohidaka <39184410+ryohidaka@users.noreply.github.com>",
   "repository": {
     "type": "git",
