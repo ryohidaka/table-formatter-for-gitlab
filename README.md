@@ -1,6 +1,7 @@
 # Table Formatter for GitLab
 
 ![build](https://github.com/ryohidaka/table-formatter-for-gitlab/workflows/Build/badge.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Format the table in the GitLab MR and Issue.
 
