@@ -1,5 +1,7 @@
 # Table Formatter for GitLab
 
+![build](https://github.com/ryohidaka/table-formatter-for-gitlab/workflows/Build/badge.svg)
+
 Format the table in the GitLab MR and Issue.
 
 ![Brand Image](./assets/images/brand.png)
