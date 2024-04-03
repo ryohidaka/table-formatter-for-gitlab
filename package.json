@@ -16,6 +16,7 @@
     "dev": "plasmo dev",
     "build": "plasmo build",
     "package": "plasmo package",
+    "build-firefox": "plasmo build --target=firefox-mv2 --zip",
     "format": "npx prettier ./src --write"
   },
   "dependencies": {
@@ -38,6 +39,11 @@
   "manifest": {
     "permissions": [
       "https://gitlab.com//*"
-    ]
+    ],
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "table-formatter-for-gitlab@hidaka.dev"
+      }
+    }
   }
 }
