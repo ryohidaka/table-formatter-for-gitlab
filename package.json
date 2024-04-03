@@ -4,6 +4,14 @@
   "version": "0.0.1",
   "description": "Format the table in the GitLab MR and Issue.",
   "author": "ryohidaka <39184410+ryohidaka@users.noreply.github.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryohidaka/table-formatter-for-gitlab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryohidaka/table-formatter-for-gitlab/issues"
+  },
+  "homepage": "https://github.com/ryohidaka/table-formatter-for-gitlab#readme",
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build",
