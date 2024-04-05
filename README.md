@@ -7,6 +7,10 @@ Format the table in the GitLab™ MR and Issue.
 
 ![Brand Image](./assets/images/brand.png)
 
+## Installation
+
+[<img src="./assets/images/chrome-web-store.png" alt="Available in the Chrome Web Store" width="248" />](https://chromewebstore.google.com/detail/table-formatter-for-gitla/cmnfpcigikpfklfgligjlkgbckmeedil)
+
 ## How to use
 
 1. Go to the GitLab™ edit page for the issue or merge request.
@@ -18,3 +22,7 @@ Format the table in the GitLab™ MR and Issue.
 ## Link
 
 - [GitLab™](https://about.gitlab.com/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
