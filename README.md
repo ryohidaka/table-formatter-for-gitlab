@@ -10,6 +10,7 @@ Format the table in the GitLab™ MR and Issue.
 ## Installation
 
 [<img src="./assets/images/chrome-web-store.png" alt="Available in the Chrome Web Store" width="248" />](https://chromewebstore.google.com/detail/table-formatter-for-gitla/cmnfpcigikpfklfgligjlkgbckmeedil)
+[<img src="./assets/images/firefox-add-ons.png" alt="Firefox Browser ADD-ONS" width="248" />](https://addons.mozilla.org/en-US/firefox/addon/table-formatter-for-gitlab/)
 
 ## How to use
 
