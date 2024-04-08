@@ -37,7 +37,7 @@
     "typescript": "5.4.4"
   },
   "manifest": {
-    "permissions": [
+    "host_permissions": [
       "https://gitlab.com/*"
     ],
     "browser_specific_settings": {
