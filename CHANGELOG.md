@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.2](https://github.com/ryohidaka/table-formatter-for-gitlab/compare/v0.0.1...v0.0.2) (2024-04-08)
+
+
+### Bug Fixes
+
+* Modify permissions in manifest. ([d8dbca2](https://github.com/ryohidaka/table-formatter-for-gitlab/commit/d8dbca22cc59b93012a787f8b61112c2fa7a3335))
+
 ## 0.0.1 (2024-04-05)
 
 
