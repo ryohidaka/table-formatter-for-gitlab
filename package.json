@@ -38,7 +38,7 @@
   },
   "manifest": {
     "permissions": [
-      "https://gitlab.com//*"
+      "https://gitlab.com/*"
     ],
     "browser_specific_settings": {
       "gecko": {
