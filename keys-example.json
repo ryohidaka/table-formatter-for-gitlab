@@ -12,5 +12,11 @@
     "extId": "table-formatter-for-gitlab@hidaka.dev",
     "apiKey": "",
     "apiSecret": ""
+  },
+  "edge": {
+    "clientId": "",
+    "clientSecret": "",
+    "productId": "",
+    "accessTokenUrl": ""
   }
 }

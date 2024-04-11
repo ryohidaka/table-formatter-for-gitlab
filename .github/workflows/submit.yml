@@ -39,3 +39,4 @@ jobs:
           keys: ${{ secrets.SUBMIT_KEYS }}
           chrome-file: "build/chrome-mv3-prod.zip"
           firefox-file: "build/firefox-mv2-prod.zip"
+          edge-file: "build/chrome-mv3-prod.zip"
