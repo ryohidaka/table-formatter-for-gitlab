@@ -1,4 +1,4 @@
-import { ISSUABLE_FORM } from "~constants"
+import { ISSUABLE_FORM } from "../constants";
 
 /**
  * This function retrieves the text field element from the document.
@@ -6,8 +6,10 @@ import { ISSUABLE_FORM } from "~constants"
  */
 export const getIssuableFormElement = (): HTMLTextAreaElement => {
   // Query the document for the text field element using the ISSUABLE_FORM selector.
-  const textField = document.querySelector(ISSUABLE_FORM) as HTMLTextAreaElement
+  const textField = document.querySelector(
+    ISSUABLE_FORM,
+  ) as HTMLTextAreaElement;
 
   // Return the text field element.
-  return textField
-}
+  return textField;
+};

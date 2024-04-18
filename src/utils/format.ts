@@ -1,5 +1,5 @@
-import { CliPrettify } from "markdown-table-prettify"
-import { marked } from "marked"
+import { CliPrettify } from "markdown-table-prettify";
+import { marked } from "marked";
 
 /**
  * This function formats a markdown table string.
@@ -12,20 +12,20 @@ import { marked } from "marked"
  */
 export const formatMarkdownTable = (markdownString: string = ""): string => {
   // Tokenize the markdown string using the `marked` library
-  const tokens = marked.lexer(markdownString)
+  const tokens = marked.lexer(markdownString);
 
   // Format each table token using the `CliPrettify` library
   const formattedTokens = tokens.map((token) => {
-    if (token.type !== "table") return token
+    if (token.type !== "table") return token;
 
-    const formattedToken = CliPrettify.prettify(token.raw)
-    return { ...token, raw: formattedToken }
-  })
+    const formattedToken = CliPrettify.prettify(token.raw);
+    return { ...token, raw: formattedToken };
+  });
 
   // Join all the tokens back into a single string
   const formattedMarkdownString = formattedTokens
     .map((token) => token.raw)
-    .join("")
+    .join("");
 
-  return formattedMarkdownString
-}
+  return formattedMarkdownString;
+};
