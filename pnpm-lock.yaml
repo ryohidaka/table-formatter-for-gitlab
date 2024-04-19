@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  format-md-table:
+    specifier: ^0.1.0
+    version: 0.1.0
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -1986,6 +1989,13 @@ packages:
     engines: {node: '>= 14.17'}
     dev: true
 
+  /format-md-table@0.1.0:
+    resolution: {integrity: sha512-z24EjAt9DNi2K9FtY2whbdqVtxIw1ebvRTP8j3u8PIOS41yjDcu6MlzQopKD+O2ikOJcleeWFvbN3R/9Kok5uA==}
+    dependencies:
+      markdown-table-prettify: 3.6.0
+      marked: 12.0.1
+    dev: false
+
   /formdata-node@6.0.3:
     resolution: {integrity: sha512-8e1++BCiTzUno9v5IZ2J6bv4RU+3UKDmqWUQD0MIMVCd9AdhWkO1gw57oo1mNEX1dMq2EGI+FbWz4B92pscSQg==}
     engines: {node: '>= 18'}
@@ -2650,13 +2660,11 @@ packages:
     resolution: {integrity: sha512-xZg+sL5yWyPz75GwNHtCOLe85CPnssoTLqpGc19xSr6CirGu4xRW2f8wj1f7c8Kx1IItXo3hUIqlUX4qAOwAdg==}
     engines: {vscode: ^1.59.0}
     hasBin: true
-    dev: true
 
   /marked@12.0.1:
     resolution: {integrity: sha512-Y1/V2yafOcOdWQCX0XpAKXzDakPOpn6U0YLxTJs3cww6VxOzZV1BTOOYWLvH3gX38cq+iLwljHHTnMtlDfg01Q==}
     engines: {node: '>= 18'}
     hasBin: true
-    dev: true
 
   /marky@1.2.5:
     resolution: {integrity: sha512-q9JtQJKjpsVxCRVgQ+WapguSbKC3SQ5HEzFGPAJMStgh3QjCawp00UKv3MTTAArTmGmmPUvllHZoNbZ3gs0I+Q==}

@@ -1,4 +1,5 @@
-import { formatMarkdownTable, getIssuableFormElement } from "@/src/utils";
+import { getIssuableFormElement } from "@/src/utils";
+import { formatMarkdownTable } from "format-md-table";
 
 function FormattedMarkdownTableButton() {
   // Function to format and overwrite the markdown table
