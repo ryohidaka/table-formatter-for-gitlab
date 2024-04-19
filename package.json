@@ -2,7 +2,7 @@
   "name": "table-formatter-for-gitlab",
   "description": "Format the table in the GitLab™ MR and Issue.",
   "private": true,
-  "version": "0.0.3",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "wxt",
