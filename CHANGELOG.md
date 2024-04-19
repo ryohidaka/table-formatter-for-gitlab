@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0](https://github.com/ryohidaka/table-formatter-for-gitlab/compare/v0.0.3...v0.1.0) (2024-04-19)
+
+
+### Features
+
+* Migrate to WXT. ([2d3444d](https://github.com/ryohidaka/table-formatter-for-gitlab/commit/2d3444d7d761b89227d21a305cc55d9baf09d3bb))
+
 ## [0.0.3](https://github.com/ryohidaka/table-formatter-for-gitlab/compare/v0.0.2...v0.0.3) (2024-04-08)
 
 
