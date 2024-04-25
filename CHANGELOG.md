@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/ryohidaka/table-formatter-for-gitlab/compare/v0.1.0...v0.2.0) (2024-04-19)
+
+
+### Features
+
+* Change formatMarkdownTable retrieval source to an external library. ([5dc1545](https://github.com/ryohidaka/table-formatter-for-gitlab/commit/5dc1545ab4cf939677b6bdf6af841b73a2650541))
+
 ## [0.1.0](https://github.com/ryohidaka/table-formatter-for-gitlab/compare/v0.0.3...v0.1.0) (2024-04-19)
 
 
